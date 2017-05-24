@@ -14,3 +14,5 @@ ls('*.js').forEach(function(file) {
 });
 
 shell.exec("echo hello " + name);
+
+exec('echo hello');
